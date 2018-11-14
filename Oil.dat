@@ -1,0 +1,57 @@
+#Homework 3 Problem 3 Part B
+
+set P := Oil, Gas, Jet;
+set C := Octane;
+set O := C1, C2;
+set D := D1, D2, DN;
+set R := R1, R2;
+
+param l (tr): Octane :=
+Oil				4.5
+Gas				8.5
+Jet				7;
+param q :=
+C1 12
+C2 10;
+param m :=
+C1 10000
+C2 10000;
+param u := 15000;
+param b := 5000;
+param j:=
+C1 .1
+C2 .1; 
+param n :=
+D1 .15
+D2 .15
+DN 0;
+param z (tr): Octane :=
+D1				4 
+D2				5 
+DN				8;
+param y (tr): Octane :=
+R1				9 
+R2				6;
+param s :=
+Oil 14
+Gas 18
+Jet 16;
+param w :=
+Oil 3000
+Gas 3000
+Jet 3000;
+param v (tr): 	D1 D2 DN :=
+C1				.3 .1 .6
+C2				.2 .4 .4;
+param t (tr): 	R1 R2 :=
+D1				.8 .2
+D2				.7 .3
+DN				0  0;
+param k (tr): 	D1 D2 DN :=
+Oil				1  1  0
+Gas				0  0  1
+Jet				0  0  1;
+param i (tr):	R1 R2 :=
+Oil				0  0
+Gas				1  1
+Jet				1  1;
