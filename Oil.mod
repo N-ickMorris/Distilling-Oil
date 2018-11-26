@@ -1,6 +1,3 @@
-#Homework 3 Problem 3 Part B
-#This model is more general because it is completely algebraic without any numbers. Another reason is because this model allows for a limitless amount of products, chemicals, crude oils, distilled oils, and/or cracked oils given the proper data file.
-
 set P; #set of products
 set C; #set of chemicals
 set O; #set of crude oils bought
