@@ -1,5 +1,3 @@
-#Homework 3 Problem 3 Part B
-
 set P := Oil, Gas, Jet;
 set C := Octane;
 set O := C1, C2;
